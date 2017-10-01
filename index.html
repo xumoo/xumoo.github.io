@@ -7,45 +7,10 @@
     <link rel="bookmark"  type="image/x-icon"  href="images/xuico_v2.png"/>
     <link rel="shortcut icon" href="images/xuico_v2.png"/>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="Style-A.css"/>
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
-
-<!-- 样式 -->
-<style id="SetUp">
-    body {
-        background-color: #edeff5;
-        width:100%;
-    }
-    div {
-        margin: 1%;
-    }
-    header {
-        width: 100%;
-        height:100%;
-        padding: 0.5%;
-        background-color: blue;
-        text-align: left;
-        color: white;
-         }
-    nav {
-        width: 10%;
-        height:100%;
-        margin: 1%;
-        background-color: blue;
-        color: white;
-        float: right;
-    }
-    footer {
-        background-color: blue;
-        clear: both;
-        width: 100%;
-        padding: 0.5%
-    }
-    .pSize {
-        width: 90%;
-    }
-</style>
 
 <body>
 
@@ -61,37 +26,37 @@
     </div>
 </header>
 
-<!--浮动栏    还没有实现-->
+<!--浮动栏    还没有完成-->
 <nav id="FloatBar">
     <div>
         <a href="#Stat" style=" text-decoration: none">
-            <h3 style="text-align: center; color: white" title="送你上去(。・∀・)ノ">导航栏</h3></a>
+            <h3 class="General" title="送你上去(。・∀・)ノ">导航栏</h3></a>
         <hr/>
-        <h4 style="text-align: center" title="怕忘记然后写的(￣▽￣)">学习随笔</h4>
+        <h4 class="General" title="怕忘记然后写的(￣▽￣)">学习随笔</h4>
         <hr/>
-        <h4 style="text-align: center" title="都是没用的QWQ">所写项目</h4>
+        <h4 class="General" title="都是没用的QWQ">所写项目</h4>
         <hr/>
-        <h4 style="text-align: center" title="不需要聚光灯和话筒(ノ｀Д)ノ">迷之想法</h4>
+        <h4 class="General" title="不需要聚光灯和话筒(ノ｀Д)ノ">迷之想法</h4>
         <hr/>
-        <h4 style="text-align: center" title="其实我可以收缩的(ゝ∀･)">----》</h4>
+        <h4 class="General" title="其实我可以收缩的(ゝ∀･)">----></h4>
     </div>
 </nav>
 
 <!--主页面内容   还没有制作-->
-<div  style="text-align: center; color: #0f0f0f; font-size: 1400%" id="MainContent">
-    <p class="pSize">
-        测试：欢迎来到序末的博客！
+<div class="pSize" style="text-align: center; color: #0f0f0f; font-size: 1400%" id="MainContent">
+    <p class="bBorder" >
+        测试:欢迎来到序末的博客!
     </p>
 </div>
 
 <!--页脚-->
 <footer id="Ed">
    <div>
-       <h4 style="text-align: center; color: white; font-size: 1em">
-           <a href="tencent://message/?uin=834418403" style="text-align: center; color: white">通过QQ</a>
+       <h5 class="General">
+           <a href="tencent://message/?uin=834418403" style="color: white">通过QQ</a>
            ------寻找我(oﾟvﾟ)ノ-----
-           <a href="https://github.com/xumoo/xumoo.github.io" style="text-align: center; color: white">通过GitHub </a>
-       </h4>
+           <a href="https://github.com/xumoo/xumoo.github.io" style="color: white">通过GitHub </a>
+       </h5>
    </div>
 </footer>
 </body>

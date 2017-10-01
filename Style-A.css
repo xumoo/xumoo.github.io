@@ -1,0 +1,11 @@
+/*
+/index用的
+ */
+body{background-color: #f2f4fa;  width:100%;}
+div{margin: 0.5%;}
+header{width: 100%;height:100%;padding: 0.5%;background-color: blue;text-align: left;color: white;}
+nav{width: 11%;height:100%;margin: 0.5%;background-color: blue;color: white;float: right;}
+footer{background-color: blue;clear: both;width: 100%;padding: 0.5%;}
+.pSize{width: 88%;}
+.General{color: white;text-align: center;}
+.bBorder{border-style: none solid none solid;border-width: 1px;border-color: #b4b4b4;}
