@@ -1,6 +1,10 @@
 /*设置的样式规格*/
+html {
+    height:100%;
+}
 body {
     background-color:#eff7e6;
+    height:100%;
 }
 div {
     margin:1%;
@@ -13,6 +17,9 @@ header {
     color:#ffffff;
 }
 nav {
+    position:fixed;
+    right:1%;
+    top:25%;
     width:10%;
     background-color:#42ce73;
     float:right;
@@ -20,10 +27,11 @@ nav {
     padding:0.5%;
 }
 footer {
+    position: relative;
+    margin-top:28%;
     width:100%;
     padding:0.5%;
     background-color:#295aa5;
-    clear:both;
 }
 .General {
     color:#ffffff;
