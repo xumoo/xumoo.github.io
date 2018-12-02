@@ -1,2 +1,6 @@
 .idea
 web.config
+package-lock.json
+yarn.lock
+node_modules
+dist
